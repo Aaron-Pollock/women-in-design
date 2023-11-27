@@ -19,7 +19,7 @@ img {
 /*---- styling typography ----*/
 h2, strong {
     font-family: 'Ubuntu', sans-serif;
-    color: #7F9B6A
+    color: #60774e
 }
 
 p, blockquote {
@@ -36,7 +36,6 @@ h1{
 h2{
     font-size:2.441rem;
     margin: 3rem 0 1rem 0;
-
 }
 
 blockquote{
@@ -111,10 +110,78 @@ footer {
     background: #7F9B6A;
     font-size: 0.8rem;
     padding: 0.5rem 0 1rem 0;
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 
 footer p {
-    margin: 0 25rem;
+    margin: 0 18rem;
 }
+
+.imgsmall {
+    max-width : 800px;
+    margin: auto;
+    padding: 40px 0;
+    display : grid;
+    grid-template-columns: repeat(auto-fill, minmax(375px,1fr));
+    gap: 20px;
+}
+
+.leader {
+    text-transform: uppercase;
+}
+
+.dark {
+   background-color: #b2c8a1;
+  padding: 2rem 0;
+}
+
+.dark li{
+    margin-bottom: 1rem;
+    margin-left: -2.4rem;
+list-style-type: none;
+}
+
+.connections{
+    position: relative;
+    margin: 0 auto;}
+.connections ul{
+    margin: 0;
+    padding: 0;}
+.connections li{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;  }
+.connections a:link{
+        border-bottom: none;       }
+.connections img, .connections svg{
+    border: none;}
+.connections a:hover img, .connections a:hover svg{
+    border-bottom: none;}
+ .connections svg {
+    margin: 2rem auto;}
+.connections a:hover svg path {
+    fill: #333;
+    transition: all 0.2s ease-in-out;}
+footer .connections a:hover svg path {
+    fill:  #C2C2C2;
+    transition: all 0.2s ease-in-out;}
+
+
+    @media (max-width: 768px) {
+       
+h2{
+    font-size:1.75rem;
+    margin: 3rem 0 1rem 0;
+        }
+
+h1{
+    font-size:3rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 2rem 0 1rem 0;
+        }
+footer p {
+    margin: 0 5rem;
+        }
+    }
 
