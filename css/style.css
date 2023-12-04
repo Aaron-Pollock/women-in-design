@@ -80,7 +80,7 @@ nav {
     top:0;
     left:0;
     background-color: #7F9B6A;
-    padding: 0.5rem 0;
+    padding: 0.5rem 10;
     font-size: 0.8rem;
 }
 
@@ -169,6 +169,7 @@ footer .connections a:hover svg path {
 
 
     /*--breakpoints--*/
+
     
     @media (max-width: 768px) {
        
@@ -187,14 +188,24 @@ footer p {
         }
     
 
-nav ul {
+nav ul li {
 font-size: 0.6rem;
+margin: 27px;
 }
-nav ul .logo {
+
+.logo {
     display: block;
-    margin: 15px;
+    padding-right: 80px;
 }
     }
+    
+    @media (max-width: 1160px) {
+        .logo {
+         padding-right: 150px;
+        }
+        footer p {
+            margin: 0 10rem;
+                }
+    }
 
-    @media (max-width: 768px) {
-
+ 
