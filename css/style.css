@@ -168,6 +168,8 @@ footer .connections a:hover svg path {
     transition: all 0.2s ease-in-out;}
 
 
+    /*--breakpoints--*/
+    
     @media (max-width: 768px) {
        
 h2{
@@ -183,5 +185,16 @@ h1{
 footer p {
     margin: 0 5rem;
         }
+    
+
+nav ul {
+font-size: 0.6rem;
+}
+nav ul .logo {
+    display: block;
+    margin: 15px;
+}
     }
+
+    @media (max-width: 768px) {
 
